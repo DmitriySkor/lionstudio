@@ -1,0 +1,52 @@
+body{
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.top_menu{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #000;
+
+}
+
+.fa-circle{
+    color: #e54671;
+    font-size: 6px;
+    vertical-align: middle;
+    margin-right: 24px;
+
+}
+
+.header_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.phone_number{
+    font-family: 'Proxima Nova Rg';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 15px;
+}
+

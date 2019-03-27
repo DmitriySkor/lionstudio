@@ -13,6 +13,7 @@
 
     <!-- Fonts CSS -->
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
 
     <!-- Owlcarousel CSS -->
     <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
@@ -29,10 +30,35 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
-    <title>Hello, world!</title>
+    <title>Lionstudio</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+
+<div class="first_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <div class="header">
+                <a href="#" class="top_menu">Обучение</a>
+                <a href="#" class="top_menu"><i class="fa fa-circle"></i> Цены</a>
+                <a href="#" class="top_menu"><i class="fa fa-circle"></i> Учителя</a>
+
+                    <div class="header_contacts">
+
+                            <a class="phone_number" href="tel:88009454555">8 800 945 45 55</a>
+                            <a class="pirple_btn" href="#">Оставить заявку</a>
+
+                    </div>
+
+                <a href="#" class="top_menu">Отзывы</a>
+                <a href="#" class="top_menu"><i class="fa fa-circle"></i> Работы</a>
+                <a href="#" class="top_menu"><i class="fa fa-circle"></i> Почему мы</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.min.js"></script>
