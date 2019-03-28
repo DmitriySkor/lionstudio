@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .header a{
@@ -22,7 +22,7 @@ body{
     font-style: normal;
     font-size: 14px;
     color: #000;
-
+    margin-top: 40px;
 }
 
 .fa-circle{
@@ -36,13 +36,16 @@ body{
 .header_contacts{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    /*margin-top: 35px;*/
-    box-shadow: 0px 2px 7px 18px rgba(233,233,233,1);
+    /*box-shadow: 0px 2px 7px 18px rgba(233,233,233,1);*/
+    background-image: url("/img/top_contacts_bg.png");
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
-    max-width: 303px;
-    height: 194px;
+    max-width: 332px;
+    height: 220px;
 }
 
 .phone_number{
@@ -51,6 +54,7 @@ body{
     font-style: normal;
     font-size: 20px;
     color: #000;
+    margin-top: 35px;
     margin-bottom: 15px;
     position: relative;
 }
@@ -61,4 +65,20 @@ body{
     top: 24px;
     right: 53px;
 }
+
+.pirple_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 70, 113);
+    width: 164px;
+    height: 38px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 18px;
+    margin-top: 22px;
+}
+
 
