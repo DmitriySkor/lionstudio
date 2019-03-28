@@ -47,7 +47,7 @@
 
                             <a class="phone_number" href="tel:88009454555">8 800 945 45 55</a>
                             <a class="pirple_btn" href="#">Оставить заявку</a>
-
+                        <img class="contact_arrow" src="/img/arrow_down.png" alt="">
                     </div>
 
                 <a href="#" class="top_menu">Отзывы</a>
