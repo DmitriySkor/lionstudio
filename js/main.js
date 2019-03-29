@@ -26,3 +26,13 @@ $().fancybox({
 jQuery(function ($) {
     $(".maskedinput").mask("+38 ( 999 ) 999-99-99");
 });
+
+$('#pills-profile-tab').click(function () {
+    $('.beef-2').addClass("ivi");
+    $('.beef-1').removeClass("ivi");
+});
+
+$('#pills-home-tab').click(function () {
+    $('.beef-2').removeClass("ivi");
+    $('.beef-1').addClass("ivi");
+});

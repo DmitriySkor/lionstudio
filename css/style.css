@@ -6,6 +6,16 @@ html body {
     overflow-x: hidden;
 }
 
+.section__num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
 .contain-number {
     background-image: url(../img/bg_num.png);
     background-repeat: no-repeat;
@@ -22,9 +32,7 @@ html body {
     text-align: center;
 }
 
-/*END Main style*/
-
-
+/*First section*/
 .top-horizontal-line {
     border-bottom: 3px solid #ccc;
     opacity: 0.2;
@@ -95,7 +103,7 @@ html body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url("/img/top_contacts_bg.png");
+    background-image: url("../img/top_contacts_bg.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,7 +125,7 @@ html body {
 }
 
 .phone_number::after {
-    content: url(/img/grey_line.png);
+    content: url(../img/grey_line.png);
     position: absolute;
     top: 24px;
     right: 53px;
@@ -288,4 +296,266 @@ html body {
     color: #c2c2c2;
     font-size: 10px;
     margin: 0 50px;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 160px;
+}
+
+.advantage__img {
+    margin-bottom: 34px;
+}
+
+.advantage__head {
+    font-size: 20px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.advantage__text {
+    font-size: 14px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.478);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*Second section*/
+.second_section {
+    position: relative;
+    background-image: url(../img/bg_second_section.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 105px 0 130px;
+}
+
+.second_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.778;
+    text-align: center;
+}
+
+.second_section__pate {
+    margin-top: 327px;
+}
+
+.pate {
+    display: flex;
+    justify-content: center;
+}
+
+.pate img {
+    margin: 0 25px;
+}
+
+.second_section__text {
+    font-size: 18px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    text-align: center;
+    margin-top: 47px;
+    padding: 0 100px;
+}
+
+.employment {
+    min-height: 250px;
+    padding-top: 147px;
+}
+
+.employment__head {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 23px;
+}
+
+.employment__text {
+    font-size: 14px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(255, 255, 255, 0.478);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*Trio section*/
+.trio_section {
+    position: relative;
+    padding: 105px 0 55px;
+}
+
+.trio_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.778;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 51px;
+    margin-bottom: 100px;
+}
+
+.chips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 86px;
+}
+
+.chips__img {
+    margin-bottom: 35px;
+}
+
+.chips__head {
+    font-size: 20px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+
+.chips__text {
+    font-size: 14px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.478);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*Four section*/
+.four_section {
+    position: relative;
+    padding: 114px 0 285px;
+    background-image: url(../img/bg_four_section.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.four_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.778;
+    text-align: center;
+}
+
+.measure {
+    margin-top: 134px;
+}
+
+#pills-tab {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    border-radius: 64px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 658px;
+    margin: 0 auto;
+}
+
+#pills-tabContent {
+    margin-top: 54px;
+    padding: 0 100px;
+}
+
+.measure .nav-item {
+    position: relative;
+    width: 50%;
+    height: 68px;
+}
+
+.measure__before {
+    font-size: 12px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(255, 255, 255, 0.42);
+    text-transform: uppercase;
+    line-height: 2.333;
+    text-align: center;
+    position: absolute;
+    top: -40px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.measure .nav-pills .nav-link {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgba(255, 255, 255, 0.42);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.556;
+    text-align: center;
+}
+
+
+.measure .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+    border: 2px solid #fff;
+    height: 68px;
+    border-radius: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.556;
+    text-align: center;
+}
+
+
+.measure__before.ivi {
+    font-size: 12px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.333;
+    text-align: center;
+}
+
+.tab-pane {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.75;
+    text-align: center;
+}
+
+/*Five section*/
+.five_section {
+    position: relative;
+    padding: 100px 0;
+    background-color: yellow;
 }
