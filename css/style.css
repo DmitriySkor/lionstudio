@@ -556,6 +556,64 @@ html body {
 /*Five section*/
 .five_section {
     position: relative;
+    padding: 100px 0 130px;
+    background-color: #f9ae1d;
+}
+
+.five_section__info {
+    width: 100%;
+    max-width: 880px;
+    background-color: #6050cb;
+    border-radius: 4px;
+    padding: 40px;
+    background-image: url(../img/bg_info-txt.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    float: right;
+    margin-top: 90px;
+}
+
+.five_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.778;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.five_section__text {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.478);
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 41px;
+    padding: 0 200px;
+}
+
+
+.five_section__info-txt {
+    font-size: 30px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.five_section__img img {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 830px);
+}
+
+
+/*Six section*/
+.six_section {
+    position: relative;
     padding: 100px 0;
-    background-color: yellow;
 }

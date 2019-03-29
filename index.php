@@ -388,6 +388,37 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="five_section__head">
+                    учим вести бизнес
+                </div>
+                <div class="five_section__text">
+                    Курсы дают как узкоспециальную подготовку, так и основы знаний, необходимых для организации и ведения собственного бизнеса. Вы пройдете тренинг по
+                    маркетингу (этот раздел необходим каждому мастеру перманентного макияжа, вне зависимости, где он работает) и ускоренный бизнес-тренинг.
+                </div>
+                <div class="five_section__info">
+                    <div class="five_section__info-txt">
+                        Бесплатный маркетинг-кит<br>
+                        в подарок по окончании школы
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="five_section__img">
+        <img src="img/bg_five_section.png" alt="img">
+    </div>
+</div>
+<div class="six_section">
+    <div class="section__num">
+        <div class="contain-number">
+            <div class="number">
+                6
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
