@@ -419,6 +419,67 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="six_section__head">
+                    оборудование и расходники
+                </div>
+                <div class="six_section__text">
+                    Обеспечиваем всем необходимым во время учебы, а лучшие ученики получают материалы <br>и оборудование в подарок в конце обучения.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="seven_section">
+    <div class="section__num">
+        <div class="contain-number">
+            <div class="number">
+                7
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="seven_section__head">
+                    наши цены
+                </div>
+                <div class="seven_section__text">
+                    Возможно, лучшее соотношение цены и качества
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="orange_program">
+                    <div class="program__top">
+                        <div class="program__top_left">
+                            <div class="program__top_name">
+                                Базовая программа
+                            </div>
+                            <div class="program__top_text">
+                                Основы перманентного<br>
+                                макияжа
+                            </div>
+                        </div>
+                        <div class="program__top_right">
+                            <div class="program__top_right-price">
+                                <div class="program__top_right-price-numb">
+                                    120 000 руб
+                                </div>
+                                <div class="program__top_right-price-sale">
+                                    <img src="img/ico_sale.png" alt="img">
+                                    -15% по предоплате
+                                </div>
+                            </div>
+                            <div class="program__top_right-circle"></div>
+                        </div>
+                    </div>
+                    <div class="program__bot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -446,11 +446,12 @@ html body {
 .four_section {
     position: relative;
     padding: 114px 0 285px;
-    background-image: url(../img/bg_four_section.png);
+    background-image: url(../img/bg_four_section.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 
 .four_section__head {
     font-size: 36px;
@@ -615,5 +616,128 @@ html body {
 /*Six section*/
 .six_section {
     position: relative;
+    padding: 165px 0 235px;
+    background-image: url(../img/bg_six_section.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.six_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.778;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.six_section__text {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(255, 255, 255, 0.478);
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 56px;
+}
+
+/*Seven section*/
+.seven_section {
+    position: relative;
     padding: 100px 0;
+}
+
+.seven_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.778;
+    text-align: center;
+    margin-top: 46px;
+    letter-spacing: 5px;
+}
+
+.seven_section__text {
+    font-size: 18px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.478);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.orange_program {
+    background-image: url(../img/bg_orange_program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 39px 55px;
+    margin-top: 70px;
+}
+
+.program__top {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.program__top_name {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+.program__top_text {
+    font-size: 36px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 11px;
+}
+
+.program__top_right {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 48px;
+}
+
+.program__top {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.program__top_right-circle {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #fbd3bb;
+    border-radius: 50px;
+}
+
+.program__top_right-price {
+    margin-right: 62px;
+}
+
+.program__top_right-price-numb {
+    font-size: 36px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.778;
+}
+
+.program__top_right-price-sale img {
+    margin-right: 4px;
+}
+
+.program__top_right-price-sale {
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgba(255, 255, 255, 0.639);
+    line-height: 1.75;
+    margin-top: 9px;
 }
