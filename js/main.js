@@ -58,3 +58,9 @@ $('#pills-home-tab').click(function () {
     $('.beef-1').addClass("ivi");
 });
 
+//
+jQuery(function ($) {
+    $('[data-fancybox]').fancybox({
+        protect: true
+    });
+});

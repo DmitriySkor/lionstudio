@@ -806,7 +806,6 @@
                 <div class="nine_section__head">
                     успех учеников
                 </div>
-
                 <div class="contain_student_success">
                     <div class="owl-carousel slide-2">
                         <div class="item">
@@ -830,7 +829,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="item">
                             <div class="student__success">
                                 <div class="student__success_img">
@@ -852,10 +850,66 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="ten_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="certificate__information">
+                    <div class="certificate__information_head">
+                        Сертификат мастера<br>
+                        международного образца
+                    </div>
+                    <div class="certificate__information_text">
+                        Странная у него манера – садиться на конторку и с ее высоты разговаривать со служащим, который вдобавок вынужден подойти вплотную к конторке из-за
+                        того, что хозяин туг на ухо. Однако надежда еще не совсем потеряна: как только я накоплю денег.
+                    </div>
+                    <div class="certificate__information_phone">
+                        <a href="tel:89778582129">8 (977) 858 21 29</a>
+                    </div>
+                    <div class="certificate__information_links">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModalCenter">
+                            оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contain-certificate">
+                    <div class="certificate">
+                        <a href="img/certificate.jpg" data-fancybox="images" data-caption="My caption">
+                            <img src="img/certificate.jpg" alt="img"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
     </div>

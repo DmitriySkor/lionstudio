@@ -1158,3 +1158,77 @@ html body {
 .nine_section .owl-next span {
     font-size: 28px;
 }
+
+/*Ten section*/
+.ten_section {
+    background-image: url(../img/bg_ten_section.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 530px;
+}
+
+.contain-certificate {
+    position: relative;
+}
+
+.certificate {
+    background-image: url(../img/contain_certificate.jpg);
+    background-repeat: no-repeat;
+    width: 482px;
+    height: 579px;
+    position: absolute;
+    top: -25px;
+}
+
+.certificate a img {
+    width: 414px;
+    height: auto;
+    padding-top: 66px;
+    padding-left: 64px;
+}
+
+.certificate__information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 360px;
+    margin-top: 100px;
+}
+
+.certificate__information_head {
+    font-size: 30px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: right;
+}
+
+.certificate__information_text {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(255, 255, 255, 0.478);
+    text-align: right;
+}
+
+.certificate__information_phone a {
+    font-size: 42px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.btn-pink {
+    width: 220px;
+    height: 48px;
+    border: none;
+    border-radius: 48px;
+    background-color: #e54671;
+
+    font-size: 14px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
