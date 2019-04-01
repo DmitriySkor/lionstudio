@@ -1,6 +1,27 @@
 // Инициализация owlCarousel
-$(document).ready(function () {
-    $(".owl-carousel").owlCarousel();
+jQuery(function ($) {
+    $('.slide-1').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
+    $('.slide-2').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            }
+        }
+    });
 });
 
 // Инициализация jQueryFormStyler
@@ -36,3 +57,4 @@ $('#pills-home-tab').click(function () {
     $('.beef-2').removeClass("ivi");
     $('.beef-1').addClass("ivi");
 });
+

@@ -14,6 +14,7 @@ html body {
     display: flex;
     justify-content: center;
     margin-top: -100px;
+    z-index: 2;
 }
 
 .contain-number {
@@ -645,7 +646,7 @@ html body {
 /*Seven section*/
 .seven_section {
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0 167px;
 }
 
 .seven_section__head {
@@ -672,7 +673,7 @@ html body {
     background-image: url(../img/bg_orange_program.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 39px 55px;
+    padding: 39px 55px 56px;
     margin-top: 70px;
 }
 
@@ -740,4 +741,420 @@ html body {
     color: rgba(255, 255, 255, 0.639);
     line-height: 1.75;
     margin-top: 9px;
+}
+
+.program__bot {
+    border-top: 1px solid #fff;
+    display: flex;
+    margin-top: 37px;
+}
+
+.program__bot_time {
+    padding-top: 41px;
+    margin-right: 45px;
+}
+
+.program__bot_time-info {
+    font-size: 24px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.program__bot_time-text {
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.program__bot_teachers {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding-left: 45px;
+    padding-top: 44px;
+    padding-right: 45px;
+}
+
+.program__bot_teachers-text {
+    font-size: 13px;
+    font-family: 'Proxima Nova Lt', sans-serif;
+    color: rgba(255, 255, 255, 0.639);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 38px;
+}
+
+.program__bot_teachers-name {
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.program__bot_timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 38px;
+    padding-left: 45px;
+}
+
+.program__bot_timetable-numb {
+    font-size: 64px;
+    font-family: 'Proxima Nova Lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+}
+
+.program__bot_timetable-text {
+    font-size: 18px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.program__bot_timetable-link {
+    font-size: 12px;
+    font-family: 'Proxima Nova Lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 3px 7px;
+    margin-top: 15px;
+}
+
+.violet_program {
+    background-image: url(../img/bg_violet_program.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 37px;
+    padding: 39px 55px 60px;
+}
+
+.pink_program {
+    background-image: url(../img/bg_pink_program.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 37px;
+    padding: 39px 55px 60px;
+}
+
+.yellow_program {
+    background-image: url(../img/bg_yellow_program.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 37px;
+    padding: 39px 55px 60px;
+}
+
+.blue_program {
+    background-image: url(../img/bg_blue_program.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 37px;
+    padding: 39px 55px 60px;
+}
+
+.small__program {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small__program_text {
+    font-size: 16px;
+    font-family: 'Proxima Nova Lt', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+.small__program_name {
+    font-size: 24px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 12px;
+}
+
+.small__program_price {
+    display: flex;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.small__program_price-numb {
+    font-size: 24px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.167;
+    margin-right: 36px;
+}
+
+.small__program_circle {
+    width: 37px;
+    height: 37px;
+    border: 4px solid rgba(255, 255, 255, 0.639);
+    border-radius: 37px;
+    margin-top: 38px;
+}
+
+.small_program_bottom {
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.small_program_bottom-info {
+    padding: 44px 0 0 0;
+}
+
+.small_program_bottom-info-teacher-txt {
+    font-size: 13px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(255, 255, 255, 0.639);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.small_program_bottom-info-teacher-name {
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.small_program_bottom-time {
+    border-left: 1px solid #fff;
+    padding: 35px 45px 0;
+}
+
+.small_program_bottom-time-number {
+    font-size: 64px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+}
+
+.small_program_bottom-time-text {
+    font-size: 18px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+}
+
+.eight_section {
+    position: relative;
+    padding: 100px 0 0;
+}
+
+/*Eight section*/
+
+.eight_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    margin-top: 41px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+.teachers__info {
+    position: relative;
+    width: 100%;
+    height: 598px;
+    background-image: url(../img/teachers_01.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.teachers__info_txt {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 58px;
+    left: 50%;
+}
+
+.teachers__info_txt-position {
+    font-size: 96px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgba(0, 0, 0, 0.102);
+    font-weight: bold;
+}
+
+.teachers__info_txt-names {
+    font-size: 36px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: -14px;
+}
+
+.teachers__info_block {
+    background-image: url(../img/bg_teachers__info_block.png);
+    background-color: rgba(96, 80, 203, .2);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 384px;
+    padding: 64px 37px;
+}
+
+.teachers__info_block ul li {
+    position: relative;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.teachers__info_block ul li::before {
+    content: ".";
+    font-size: 46px;
+    position: absolute;
+    top: -27px;
+    left: -23px;
+}
+
+.eight_section .slide-1 .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% + 55px);
+    display: flex;
+}
+
+.eight_section .slide-1 .owl-nav [class*="owl-"] {
+    color: #000;
+    font-size: 28px !important;
+    background: transparent;
+    border-radius: 65px;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #d4cfee !important;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-next:focus,
+.owl-prev:focus {
+    outline: none;
+}
+
+/*Nine section*/
+.nine_section {
+    position: relative;
+    padding: 100px 0;
+}
+
+.nine_section__head {
+    font-size: 36px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    margin-top: 41px;
+    letter-spacing: 5px;
+    margin-bottom: 13px;
+}
+
+.student__success_img img {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.student__success_name {
+    font-size: 24px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.student__success_position {
+    font-size: 13px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.student__success_position span {
+    font-size: 13px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.361);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.student__success_text {
+    font-size: 16px;
+    font-family: 'Proxima Nova lt', sans-serif;
+    color: rgba(0, 0, 0, 0.478);
+    line-height: 1.75;
+    text-align: center;
+    margin-top: 33px;
+    padding: 0 130px;
+}
+
+.nine_section .owl-prev {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    border: 1px solid #d4cfee !important;
+    position: absolute;
+    left: 0;
+    top: calc(50% - -27px);
+}
+
+.nine_section .owl-prev span {
+    font-size: 28px;
+}
+
+.nine_section .owl-next {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    border: 1px solid #d4cfee !important;
+    position: absolute;
+    right: 0;
+    top: calc(50% - -27px);
+}
+
+.nine_section .owl-next span {
+    font-size: 28px;
 }

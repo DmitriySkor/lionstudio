@@ -475,8 +475,387 @@
                             <div class="program__top_right-circle"></div>
                         </div>
                     </div>
-                    <div class="program__bot"></div>
+                    <div class="program__bot">
+                        <div class="program__bot_time">
+                            <div class="program__bot_time-info">
+                                8 часов
+                            </div>
+                            <div class="program__bot_time-text">
+                                Бровист<br>
+                                и дизайнер<br>
+                                взгляда
+                            </div>
+                        </div>
+                        <div class="program__bot_time">
+                            <div class="program__bot_time-info">
+                                25 часов
+                            </div>
+                            <div class="program__bot_time-text">
+                                Нано-напыление
+                            </div>
+                        </div>
+                        <div class="program__bot_time">
+                            <div class="program__bot_time-info">
+                                10 часов
+                            </div>
+                            <div class="program__bot_time-text">
+                                Микроблейдинг,<br>
+                                Наноблейдинг
+                            </div>
+                        </div>
+                        <div class="program__bot_time">
+                            <div class="program__bot_time-info">
+                                3 часа
+                            </div>
+                            <div class="program__bot_time-text">
+                                Удаление<br>
+                                лазером<br>
+                                и ремувером
+                            </div>
+                        </div>
+                        <div class="program__bot_teachers">
+                            <div class="program__bot_teachers-text">
+                                преподаватели :
+                            </div>
+                            <div class="program__bot_teachers-name">
+                                Юлия Рожко
+                            </div>
+                            <div class="program__bot_teachers-name">
+                                Козлова Екатерина
+                            </div>
+                            <div class="program__bot_teachers-name">
+                                Малушко Светлана
+                            </div>
+                        </div>
+                        <div class="program__bot_">
+                            <div class="program__bot_timetable">
+                                <div class="program__bot_timetable-numb">
+                                    7
+                                </div>
+                                <div class="program__bot_timetable-text">
+                                    дней
+                                </div>
+                                <div class="program__bot_timetable-link">
+                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                    расписание
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="violet_program">
+                    <div class="small_program_top">
+                        <div class="small__program">
+                            <div class="small__program_info">
+                                <div class="small__program_text">
+                                    индивидуальное занятие
+                                </div>
+                                <div class="small__program_name">
+                                    Брови. Пудровое напыление
+                                </div>
+                            </div>
+                            <div class="small__program_circle"></div>
+                        </div>
+                        <div class="small__program_price">
+                            <div class="small__program_price-numb">
+                                4 000 руб
+                            </div>
+                            <div class="small__program_price-sale">
+                                <img src="img/ico_sale.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small_program_bottom">
+                        <div class="small_program_bottom-info">
+                            <div class="small_program_bottom-info-teacher-txt">
+                                преподаватели:
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Юлия Рожко
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Козлова Екатерина
+                            </div>
+                        </div>
+                        <div class="small_program_bottom-time">
+                            <div class="small_program_bottom-time-number">
+                                2
+                            </div>
+                            <div class="small_program_bottom-time-text">
+                                часа
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="pink_program">
+                    <div class="small_program_top">
+                        <div class="small__program">
+                            <div class="small__program_info">
+                                <div class="small__program_text">
+                                    Интенсивный курс
+                                </div>
+                                <div class="small__program_name">
+                                    Основы перманентного макияжа
+                                </div>
+                            </div>
+                            <div class="small__program_circle"></div>
+                        </div>
+                        <div class="small__program_price">
+                            <div class="small__program_price-numb">
+                                4 000 руб
+                            </div>
+                            <div class="small__program_price-sale">
+                                <img src="img/ico_sale.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small_program_bottom">
+                        <div class="small_program_bottom-info">
+                            <div class="small_program_bottom-info-teacher-txt">
+                                преподаватели:
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Юлия Рожко
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Козлова Екатерина
+                            </div>
+                        </div>
+                        <div class="small_program_bottom-time">
+                            <div class="small_program_bottom-time-number">
+                                2
+                            </div>
+                            <div class="small_program_bottom-time-text">
+                                часа
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="yellow_program">
+                    <div class="small_program_top">
+                        <div class="small__program">
+                            <div class="small__program_info">
+                                <div class="small__program_text">
+                                    групповое занятие
+                                </div>
+                                <div class="small__program_name">
+                                    Брови. Пудровое напыление
+                                </div>
+                            </div>
+                            <div class="small__program_circle"></div>
+                        </div>
+                        <div class="small__program_price">
+                            <div class="small__program_price-numb">
+                                4 000 руб
+                            </div>
+                            <div class="small__program_price-sale">
+                                <img src="img/ico_sale.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small_program_bottom">
+                        <div class="small_program_bottom-info">
+                            <div class="small_program_bottom-info-teacher-txt">
+                                преподаватели:
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Юлия Рожко
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Козлова Екатерина
+                            </div>
+                        </div>
+                        <div class="small_program_bottom-time">
+                            <div class="small_program_bottom-time-number">
+                                2
+                            </div>
+                            <div class="small_program_bottom-time-text">
+                                часа
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="blue_program">
+                    <div class="small_program_top">
+                        <div class="small__program">
+                            <div class="small__program_info">
+                                <div class="small__program_text">
+                                    индивидуальное занятие
+                                </div>
+                                <div class="small__program_name">
+                                    Брови. Пудровое напыление
+                                </div>
+                            </div>
+                            <div class="small__program_circle"></div>
+                        </div>
+                        <div class="small__program_price">
+                            <div class="small__program_price-numb">
+                                4 000 руб
+                            </div>
+                            <div class="small__program_price-sale">
+                                <img src="img/ico_sale.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small_program_bottom">
+                        <div class="small_program_bottom-info">
+                            <div class="small_program_bottom-info-teacher-txt">
+                                преподаватели:
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Юлия Рожко
+                            </div>
+                            <div class="small_program_bottom-info-teacher-name">
+                                Козлова Екатерина
+                            </div>
+                        </div>
+                        <div class="small_program_bottom-time">
+                            <div class="small_program_bottom-time-number">
+                                2
+                            </div>
+                            <div class="small_program_bottom-time-text">
+                                часа
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="eight_section">
+    <div class="section__num">
+        <div class="contain-number">
+            <div class="number">
+                8
+            </div>
+        </div>
+    </div>
+
+    <div class="eight_section__head">
+        наши преподаватели
+    </div>
+    <div class="eight_section__carousel">
+        <div class="owl-carousel slide-1">
+            <div class="item">
+                <div class="teachers_contain">
+                    <div class="teachers__info">
+                        <div class="teachers__info_txt">
+                            <div class="teachers__info_txt-position">
+                                01
+                            </div>
+                            <div class="teachers__info_txt-names">
+                                Юлия Рожко
+                            </div>
+                        </div>
+                        <div class="teachers__info_block">
+                            <ul>
+                                <li>Ведущий топ-мастер</li>
+                                <li>Сертифицированный тренер международного класса</li>
+                                <li>Основатель и руководитель учебного центра «LionSchool»</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="teachers_contain">
+                    <div class="teachers__info">
+                        <div class="teachers__info_txt">
+                            <div class="teachers__info_txt-position">
+                                02
+                            </div>
+                            <div class="teachers__info_txt-names">
+                                Козлова Екатерина
+                            </div>
+                        </div>
+                        <div class="teachers__info_block">
+                            <ul>
+                                <li>Ведущий топ-мастер</li>
+                                <li>Сертифицированный тренер международного класса</li>
+                                <li>Основатель и руководитель учебного центра «LionSchool»</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nine_section">
+    <div class="section__num">
+        <div class="contain-number">
+            <div class="number">
+                9
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="nine_section__head">
+                    успех учеников
+                </div>
+
+                <div class="contain_student_success">
+                    <div class="owl-carousel slide-2">
+                        <div class="item">
+                            <div class="student__success">
+                                <div class="student__success_img">
+                                    <img class="img-fluid" src="img/student_1.png" alt="img">
+                                </div>
+                                <div class="student__success_name">
+                                    Алина Б.
+                                </div>
+                                <div class="student__success_position">
+                                    <span>сейчас:</span>
+                                    Мастер татуажа в салоне Loone, 114 000 руб/мес
+                                </div>
+                                <div class="student__success_text">
+                                    Я давно хотела основать профессию мастера перманентного макияжа. Программа этих курсов мне подошла на все 100%. Удобное расписание, опытные
+                                    преподаватели. И самое главное – нет никакой ненужной болтовни, все исключительно по делу. Дается только та информация, которая важна для
+                                    работы. Поэтому курс не «раздут», все укладывается буквально в несколько дней. Также порадовало обилие практики. Одним словом, после курсов
+                                    выходишь настоящим мастером с «набитой» рукой и знаниями, как обставить кабинет, как начать бизнес с нуля. Огромное спасибо преподавателям.
+                                    Всем рекомендую эту школу.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="student__success">
+                                <div class="student__success_img">
+                                    <img class="img-fluid" src="img/student_1.png" alt="img">
+                                </div>
+                                <div class="student__success_name">
+                                    Алина Б.
+                                </div>
+                                <div class="student__success_position">
+                                    <span>сейчас:</span>
+                                    Мастер татуажа в салоне Loone, 114 000 руб/мес
+                                </div>
+                                <div class="student__success_text">
+                                    Я давно хотела основать профессию мастера перманентного макияжа. Программа этих курсов мне подошла на все 100%. Удобное расписание, опытные
+                                    преподаватели. И самое главное – нет никакой ненужной болтовни, все исключительно по делу. Дается только та информация, которая важна для
+                                    работы. Поэтому курс не «раздут», все укладывается буквально в несколько дней. Также порадовало обилие практики. Одним словом, после курсов
+                                    выходишь настоящим мастером с «набитой» рукой и знаниями, как обставить кабинет, как начать бизнес с нуля. Огромное спасибо преподавателям.
+                                    Всем рекомендую эту школу.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
