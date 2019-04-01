@@ -856,7 +856,6 @@
         </div>
     </div>
 </div>
-
 <div class="ten_section">
     <div class="container">
         <div class="row">
@@ -887,6 +886,111 @@
                         <a href="img/certificate.jpg" data-fancybox="images" data-caption="My caption">
                             <img src="img/certificate.jpg" alt="img"/>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="eleven_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 mt-70">
+                <div class="event">
+                    <a href="img/event/img_1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_1.jpg" alt="img"/>
+                    </a>
+                </div>
+                <div class="event">
+                    <a href="img/event/img_2.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_2.jpg" alt="img"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-200">
+                <div class="event">
+                    <a href="img/event/img_3.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_3.jpg" alt="img"/>
+                    </a>
+                </div>
+                <div class="event">
+                    <a href="img/event/img_4.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_4.jpg" alt="img"/>
+                    </a>
+                </div>
+                <div class="event">
+                    <a href="img/event/img_5.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_5.jpg" alt="img"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-30">
+                <div class="event">
+                    <a href="img/event/img_6.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_6.jpg" alt="img"/>
+                    </a>
+                </div>
+                <div class="event">
+                    <a href="img/event/img_7.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_7.jpg" alt="img"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-90">
+                <div class="event">
+                    <a href="img/event/img_8.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_8.jpg" alt="img"/>
+                    </a>
+                </div>
+                <div class="event">
+                    <a href="img/event/img_9.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                        <img class="img-fluid" src="img/event/img_9.jpg" alt="img"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="twelve_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="twelve_section__head">
+                    50+ мероприятий в год
+                </div>
+                <div class="twelve_section__text">
+                    будьте в курсе актуальных событий
+                </div>
+                <div class="">
+                    <div class="outer">
+                        <div id="big" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <h1>1</h1>
+                            </div>
+                            <div class="item">
+                                <h1>2</h1>
+                            </div>
+                            <div class="item">
+                                <h1>3</h1>
+                            </div>
+                            <div class="item">
+                                <h1>4</h1>
+                            </div>
+                        </div>
+                        <div id="thumbs" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <h1>1</h1>
+                            </div>
+                            <div class="item">
+                                <h1>2</h1>
+                            </div>
+                            <div class="item">
+                                <h1>3</h1>
+                            </div>
+                            <div class="item">
+                                <h1>4</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

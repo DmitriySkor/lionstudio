@@ -1161,10 +1161,12 @@ html body {
 
 /*Ten section*/
 .ten_section {
+    position: relative;
     background-image: url(../img/bg_ten_section.jpg);
     background-repeat: no-repeat;
     width: 100%;
     min-height: 530px;
+    z-index: 1;
 }
 
 .contain-certificate {
@@ -1231,4 +1233,105 @@ html body {
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+}
+
+/**/
+.eleven_section {
+    position: relative;
+    z-index: 0;
+}
+
+.event {
+    margin-bottom: 30px;
+}
+
+.mt-70 {
+    margin-top: -70px;
+    z-index: 0;
+}
+
+.mt-200 {
+    margin-top: -200px;
+    z-index: 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-90 {
+    margin-top: -90px;
+    z-index: 0;
+}
+
+
+/*--------------------------------------------------*/
+.outer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#big .item {
+    background: #ec6e46;
+    padding: 120px 0px;
+    margin: 2px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#thumbs .item {
+    background: #C9C9C9;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px;
+    margin: 2px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#thumbs .item h1 {
+    font-size: 18px;
+}
+
+#thumbs .current .item {
+    background: #FF5722;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+}
+
+#big.owl-theme {
+    position: relative;
+}
+
+#big.owl-theme .owl-next, #big.owl-theme .owl-prev {
+    background: #333;
+    width: 22px;
+    line-height: 40px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+
+#big.owl-theme .owl-prev {
+    left: 10px;
+}
+
+#big.owl-theme .owl-next {
+    right: 10px;
+}
+
+#thumbs.owl-theme .owl-next, #thumbs.owl-theme .owl-prev {
+    background: #333;
 }
