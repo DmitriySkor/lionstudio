@@ -96,7 +96,6 @@ html body {
     color: #e54671;
     font-size: 6px;
     vertical-align: middle;
-    margin-right: 24px;
 }
 
 .header_contacts {
@@ -112,6 +111,7 @@ html body {
     max-width: 332px;
     height: 220px;
     z-index: 3;
+    margin-left: 15px;
 }
 
 .phone_number {
@@ -1332,4 +1332,54 @@ html body {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+/*-------------------------------------------*/
+
+.nav__scroll {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    display: none;
+}
+
+.nav__scroll.stick {
+    display: block;
+}
+
+.nav__scroll .header_contacts {
+    background-image: url("../img/top_contacts_bg_2.png");
+    background-position: center -58px;
+    margin-left: 15px;
+}
+
+.nav__scroll .contact_arrow {
+    margin-top: 25px;
+}
+
+.nav__scroll_bg {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.24);
+    width: 100%;
+    height: 57px;
+    z-index: 4;
+}
+
+.nav__scroll .header {
+    top: -80px;
+}
+
+.nav__scroll .pirple_btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    margin-top: -10px;
+}
+
+.nav__scroll .contact_arrow {
+    margin-top: 5px;
+}
+
+.nav__scroll .phone_number::after {
+    content: none;
 }

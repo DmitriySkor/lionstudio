@@ -181,14 +181,14 @@ jQuery(function ($) {
 
 jQuery(function ($) {
     $(document).ready(function () {
-        var s = $(".header");
+        var s = $(".nav__scroll");
         var pos = s.position();
         $(window).scroll(function () {
             var windowpos = $(window).scrollTop();
-            if (windowpos >= pos.top & windowpos >= 1000) {
-                s.addClass("stick");
+            if (windowpos >= pos.top & windowpos >= 100) {
+                s.addClass("stick fadeInDown");
             } else {
-                s.removeClass("stick");
+                s.removeClass("stick fadeInDown");
             }
         });
     });

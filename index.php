@@ -27,12 +27,42 @@
     <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.theme.css">
 
     <!-- Style CSS -->
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
     <title>Lionstudio</title>
 </head>
 <body>
+
+<div class="animated  nav__scroll">
+    <div class="nav__scroll_bg"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header">
+                    <a href="#learning" class="flowing-scroll top_menu">Обучение</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#prices" class="flowing-scroll top_menu">Цены</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#teachers" class="flowing-scroll top_menu">Учителя</a>
+                    <div class="header_contacts">
+                        <a class="phone_number" href="tel:88009454555">8 800 945 45 55</a>
+                        <a class="pirple_btn" href="#">
+                            <img src="img/ico_Call_male.png" alt="img">
+                        </a>
+                        <img class="contact_arrow" src="img/arrow_down.png" alt="img">
+                    </div>
+                    <a href="#reviews" class="flowing-scroll top_menu">Отзывы</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#" class="flowing-scroll top_menu">Работы</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#" class="flowing-scroll top_menu">Почему мы</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="first_section">
     <div class="bg_first_section_left"></div>
@@ -42,16 +72,20 @@
             <div class="col-lg-12">
                 <div class="header">
                     <a href="#learning" class="flowing-scroll top_menu">Обучение</a>
-                    <a href="#prices" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Цены</a>
-                    <a href="#teachers" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Учителя</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#prices" class="flowing-scroll top_menu">Цены</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#teachers" class="flowing-scroll top_menu">Учителя</a>
                     <div class="header_contacts">
                         <a class="phone_number" href="tel:88009454555">8 800 945 45 55</a>
                         <a class="pirple_btn" href="#">Оставить заявку</a>
                         <img class="contact_arrow" src="img/arrow_down.png" alt="img">
                     </div>
                     <a href="#reviews" class="flowing-scroll top_menu">Отзывы</a>
-                    <a href="#" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Работы</a>
-                    <a href="#" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Почему мы</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#" class="flowing-scroll top_menu">Работы</a>
+                    <div class="top_menu"><i class="fa fa-circle"></i></div>
+                    <a href="#" class="flowing-scroll top_menu">Почему мы</a>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -69,9 +103,11 @@
                     </div>
                 </div>
                 <div class="contain-mouse">
-                    <div class="mouse">
-                        <div class="mouse__wheel"></div>
-                    </div>
+                    <a href="#income" class="flowing-scroll">
+                    <span class="mouse">
+                        <span class="mouse__wheel"></span>
+                    </span>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -82,7 +118,7 @@
                     <div class="second__info_text">
                         и почему для обучения выбирают именно нас?
                     </div>
-                    <div class="second__info_number">
+                    <div class="second__info_number" id="income">
                         <div class="contain-number">
                             <div class="number">
                                 1
