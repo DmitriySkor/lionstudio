@@ -65,7 +65,7 @@ jQuery(function ($) {
     });
 });
 
-//
+// OWL с иконками
 $(document).ready(function () {
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
@@ -159,5 +159,37 @@ $(document).ready(function () {
         e.preventDefault();
         var number = $(this).index();
         bigimage.data("owl.carousel").to(number, 300, true);
+    });
+});
+
+
+// Плавный скролл
+jQuery(function ($) {
+    $('.flowing-scroll').on('click', function () {
+        var el = $(this);
+        var dest = el.attr('href'); // получаем направление
+        if (dest !== undefined && dest !== '') { // проверяем существование
+            $('html').animate({
+                    scrollTop: $(dest).offset().top // прокручиваем страницу к требуемому элементу
+                }, 1500 // скорость прокрутки
+            );
+        }
+        return false;
+    });
+});
+
+
+jQuery(function ($) {
+    $(document).ready(function () {
+        var s = $(".header");
+        var pos = s.position();
+        $(window).scroll(function () {
+            var windowpos = $(window).scrollTop();
+            if (windowpos >= pos.top & windowpos >= 1000) {
+                s.addClass("stick");
+            } else {
+                s.removeClass("stick");
+            }
+        });
     });
 });

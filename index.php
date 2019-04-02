@@ -41,17 +41,17 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="header">
-                    <a href="#" class="top_menu">Обучение</a>
-                    <a href="#" class="top_menu"><i class="fa fa-circle"></i> Цены</a>
-                    <a href="#" class="top_menu"><i class="fa fa-circle"></i> Учителя</a>
+                    <a href="#learning" class="flowing-scroll top_menu">Обучение</a>
+                    <a href="#prices" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Цены</a>
+                    <a href="#teachers" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Учителя</a>
                     <div class="header_contacts">
                         <a class="phone_number" href="tel:88009454555">8 800 945 45 55</a>
                         <a class="pirple_btn" href="#">Оставить заявку</a>
                         <img class="contact_arrow" src="img/arrow_down.png" alt="img">
                     </div>
-                    <a href="#" class="top_menu">Отзывы</a>
-                    <a href="#" class="top_menu"><i class="fa fa-circle"></i> Работы</a>
-                    <a href="#" class="top_menu"><i class="fa fa-circle"></i> Почему мы</a>
+                    <a href="#reviews" class="flowing-scroll top_menu">Отзывы</a>
+                    <a href="#" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Работы</a>
+                    <a href="#" class="flowing-scroll top_menu"><i class="fa fa-circle"></i> Почему мы</a>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -154,7 +154,7 @@
     </div>
     <div class="bg_first_section_right"></div>
 </div>
-<div class="second_section">
+<div class="second_section" id="learning">
     <div class="section__num">
         <div class="contain-number">
             <div class="number">
@@ -432,7 +432,7 @@
         </div>
     </div>
 </div>
-<div class="seven_section">
+<div class="seven_section" id="prices">
     <div class="section__num">
         <div class="contain-number">
             <div class="number">
@@ -732,7 +732,7 @@
     </div>
 </div>
 
-<div class="eight_section">
+<div class="eight_section" id="teachers">
     <div class="section__num">
         <div class="contain-number">
             <div class="number">
@@ -792,7 +792,7 @@
     </div>
 </div>
 
-<div class="nine_section">
+<div class="nine_section" id="reviews">
     <div class="section__num">
         <div class="contain-number">
             <div class="number">
@@ -961,34 +961,50 @@
                 <div class="twelve_section__text">
                     будьте в курсе актуальных событий
                 </div>
-                <div class="">
+                <div class="contain_social_links">
                     <div class="outer">
                         <div id="big" class="owl-carousel owl-theme">
                             <div class="item">
-                                <h1>1</h1>
+                                <div class="social__img_links">
+                                    <a href="#"><img src="img/ico_social/img_Instagram.png" alt="img"></a>
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>2</h1>
+                                <div class="social__img_links">
+                                    <a href="#"><img src="img/ico_social/img_VK_Circled.png" alt="img"></a>
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>3</h1>
+                                <div class="social__img_links">
+                                    <a href="#"><img src="img/ico_social/img_Facebook.png" alt="img"></a>
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>4</h1>
+                                <div class="social__img_links">
+                                    <a href="#"><img src="img/ico_social/img_YouTube.png" alt="img"></a>
+                                </div>
                             </div>
                         </div>
                         <div id="thumbs" class="owl-carousel owl-theme">
                             <div class="item">
-                                <h1>1</h1>
+                                <div class="social__icons">
+                                    <img src="img/ico_social/ico_Instagram.png" alt="img">
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>2</h1>
+                                <div class="social__icons">
+                                    <img src="img/ico_social/ico_VK_Circled.png" alt="img">
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>3</h1>
+                                <div class="social__icons">
+                                    <img src="img/ico_social/ico_Facebook.png" alt="img">
+                                </div>
                             </div>
                             <div class="item">
-                                <h1>4</h1>
+                                <div class="social__icons">
+                                    <img src="img/ico_social/ico_YouTube.png" alt="img">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -996,6 +1012,8 @@
             </div>
         </div>
     </div>
+    <div class="leaves_left"></div>
+    <div class="leaves_right"></div>
 </div>
 
 <!-- Modal -->
