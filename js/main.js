@@ -193,3 +193,6 @@ jQuery(function ($) {
         });
     });
 });
+
+// Инициализация WoW
+new WOW().init();

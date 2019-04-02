@@ -1308,6 +1308,7 @@ html body {
 #thumbs .social__icons {
     display: flex;
     justify-content: center;
+    height: 30px;
 }
 
 .owl-item.active.current img {
@@ -1341,6 +1342,7 @@ html body {
     width: 100%;
     z-index: 5;
     display: none;
+    height: 115px;
 }
 
 .nav__scroll.stick {
@@ -1348,9 +1350,11 @@ html body {
 }
 
 .nav__scroll .header_contacts {
-    background-image: url("../img/top_contacts_bg_2.png");
+    background-image: url(../img/top_contacts_bg_2.png);
     background-position: center -58px;
+    background-size: cover;
     margin-left: 15px;
+    height: 150px;
 }
 
 .nav__scroll .contact_arrow {
@@ -1367,6 +1371,7 @@ html body {
 
 .nav__scroll .header {
     top: -80px;
+    height: 150px;
 }
 
 .nav__scroll .pirple_btn {

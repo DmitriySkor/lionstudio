@@ -90,13 +90,13 @@
             </div>
             <div class="col-lg-12">
                 <div class="first__info">
-                    <div class="first__info_slogan">
+                    <div class="first__info_slogan wow zoomIn" data-wow-delay="0.55s">
                         Школа мастеров перманентного макияжа в Москве
                     </div>
-                    <div class="first__info_images">
+                    <div class="first__info_images wow zoomIn" data-wow-delay="1.25s">
                         <img class="img-fluid" src="img/name.png" alt="img">
                     </div>
-                    <div class="first__info_text">
+                    <div class="first__info_text wow fadeInUp" data-wow-delay="1.25s">
                         Наш преподавательский коллектив уже много лет занимается подготовкой высококлассных мастеров перманентного макияжа. Курсы подходят всем, кто
                         интересуется этим видом искусства. Но в первую очередь они рассчитаны на тех, кто хочет не просто научиться делать безукоризненный татуаж, но также
                         нацелен на достижение финансовой свободы и быстрое продвижение вверх по карьерной лестнице.
@@ -112,13 +112,13 @@
             </div>
             <div class="col-lg-12">
                 <div class="second__info">
-                    <div class="second__info_head">
+                    <div class="second__info_head wow zoomIn" data-wow-offset="100" data-wow-delay="0.25s">
                         Почему профессия так популярна?
                     </div>
-                    <div class="second__info_text">
+                    <div class="second__info_text wow zoomIn" data-wow-offset="100" data-wow-delay="0.5s">
                         и почему для обучения выбирают именно нас?
                     </div>
-                    <div class="second__info_number" id="income">
+                    <div class="second__info_number">
                         <div class="contain-number">
                             <div class="number">
                                 1
@@ -127,22 +127,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12" id="income">
                 <div class="leaves">
                     <div class="leaves__info">
-                        <div class="leaves__info_number">
+                        <div class="leaves__info_number wow zoomIn" data-wow-delay="0.5s" data-wow-offset="150">
                             <i class="fa fa-circle" aria-hidden="true"></i>
                             120 000 &#8381;
                             <i class="fa fa-circle" aria-hidden="true"></i>
                         </div>
-                        <div class="leaves__info_text">
+                        <div class="leaves__info_text wow zoomIn" data-wow-delay="0.75s" data-wow-offset="150">
                             средний заработок мастера в Москве после окончания нашей школы
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage">
+                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="0.5s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-1.png" alt="img">
                     </div>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage">
+                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="0.75s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-2.png" alt="img">
                     </div>
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage">
+                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="1s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-3.png" alt="img">
                     </div>
@@ -201,27 +201,27 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="second_section__head">
+                <div class="second_section__head wow fadeInDown" data-wow-offset="300">
                     весь комплекс знаний
                 </div>
                 <div class="second_section__pate">
                     <div class="pate">
-                        <img src="img/ico_head/head1.png" alt="img">
-                        <img src="img/ico_head/head2.png" alt="img">
-                        <img src="img/ico_head/head3.png" alt="img">
-                        <img src="img/ico_head/head4.png" alt="img">
-                        <img src="img/ico_head/head5.png" alt="img">
-                        <img src="img/ico_head/head6.png" alt="img">
+                        <img class="wow fadeInLeft" src="img/ico_head/head1.png" alt="img" data-wow-offset="150" data-wow-delay="1s" data-wow-duration="1s">
+                        <img class="wow fadeInLeft" src="img/ico_head/head2.png" alt="img" data-wow-offset="150" data-wow-delay="0.75s" data-wow-duration="0.75s">
+                        <img class="wow fadeInLeft" src="img/ico_head/head3.png" alt="img" data-wow-offset="150" data-wow-delay="0.5s" data-wow-duration="0.5s">
+                        <img class="wow fadeInRight" src="img/ico_head/head4.png" alt="img" data-wow-offset="150" data-wow-delay="0.5s" data-wow-duration="0.5s">
+                        <img class="wow fadeInRight" src="img/ico_head/head5.png" alt="img" data-wow-offset="150" data-wow-delay="0.75s" data-wow-duration="0.75s">
+                        <img class="wow fadeInRight" src="img/ico_head/head6.png" alt="img" data-wow-offset="150" data-wow-delay="1s" data-wow-duration="2s">
                     </div>
                 </div>
-                <div class="second_section__text">
+                <div class="second_section__text wow fadeInUp" data-wow-offset="150" data-wow-delay="0.7s">
                     Программа построена таким образом, что студентам не требуется иметь никаких специальных медицинских знаний – всю необходимую информацию они получают во
                     время обучения. Поэтому абсолютно каждый может освоить профессию мастера татуажа в нашей школе. Также проводятся лекции по вопросам выбора цвета,
                     стерилизации инструментов, поддержания гигиены, сохранения здоровья
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment">
+                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="0.5s">
                     <div class="employment__head">
                         Теоретические занятия
                     </div>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment">
+                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="0.75s">
                     <div class="employment__head">
                         Живые демонстрации
                     </div>
@@ -245,7 +245,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment">
+                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="1s">
                     <div class="employment__head">
                         Практические занятия
                     </div>
@@ -270,12 +270,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="trio_section__head">
+                <div class="trio_section__head wow zoomIn" data-wow-offset="150">
                     уникальные фишки
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-1.png" alt="img">
                     </div>
@@ -290,7 +290,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-2.png" alt="img">
                     </div>
@@ -305,7 +305,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-3.png" alt="img">
                     </div>
@@ -320,7 +320,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-4.png" alt="img">
                     </div>
@@ -335,7 +335,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-5.png" alt="img">
                     </div>
@@ -350,7 +350,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="chips">
+                <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-6.png" alt="img">
                     </div>
@@ -378,10 +378,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="four_section__head">
+                <div class="four_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     практические занятия
                 </div>
-                <div class="measure">
+                <div class="measure wow fadeInUp" data-wow-offset="150" data-wow-delay="1s">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
                             <span class="measure__before beef-1 ivi">
@@ -427,14 +427,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="five_section__head">
+                <div class="five_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     учим вести бизнес
                 </div>
-                <div class="five_section__text">
+                <div class="five_section__text wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     Курсы дают как узкоспециальную подготовку, так и основы знаний, необходимых для организации и ведения собственного бизнеса. Вы пройдете тренинг по
                     маркетингу (этот раздел необходим каждому мастеру перманентного макияжа, вне зависимости, где он работает) и ускоренный бизнес-тренинг.
                 </div>
-                <div class="five_section__info">
+                <div class="five_section__info wow fadeInUp" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="five_section__info-txt">
                         Бесплатный маркетинг-кит<br>
                         в подарок по окончании школы
@@ -458,10 +458,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="six_section__head">
+                <div class="six_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     оборудование и расходники
                 </div>
-                <div class="six_section__text">
+                <div class="six_section__text wow fadeInUp" data-wow-offset="150" data-wow-delay="1s">
                     Обеспечиваем всем необходимым во время учебы, а лучшие ученики получают материалы <br>и оборудование в подарок в конце обучения.
                 </div>
             </div>
@@ -479,15 +479,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="seven_section__head">
+                <div class="seven_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     наши цены
                 </div>
-                <div class="seven_section__text">
+                <div class="seven_section__text wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                     Возможно, лучшее соотношение цены и качества
                 </div>
             </div>
             <div class="col-lg-12">
-                <div class="orange_program">
+                <div class="orange_program wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     <div class="program__top">
                         <div class="program__top_left">
                             <div class="program__top_name">
@@ -581,7 +581,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="violet_program">
+                <div class="violet_program wow fadeInLeft" data-wow-offset="150" data-wow-delay="1s">
                     <div class="small_program_top">
                         <div class="small__program">
                             <div class="small__program_info">
@@ -627,7 +627,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="pink_program">
+                <div class="pink_program wow fadeInRight" data-wow-offset="150" data-wow-delay="1s">
                     <div class="small_program_top">
                         <div class="small__program">
                             <div class="small__program_info">
@@ -673,7 +673,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="yellow_program">
+                <div class="yellow_program wow fadeInLeft" data-wow-offset="150" data-wow-delay="1s">
                     <div class="small_program_top">
                         <div class="small__program">
                             <div class="small__program_info">
@@ -719,7 +719,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="blue_program">
+                <div class="blue_program wow fadeInRight" data-wow-offset="150" data-wow-delay="1s">
                     <div class="small_program_top">
                         <div class="small__program">
                             <div class="small__program_info">
@@ -776,11 +776,10 @@
             </div>
         </div>
     </div>
-
-    <div class="eight_section__head">
+    <div class="eight_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
         наши преподаватели
     </div>
-    <div class="eight_section__carousel">
+    <div class="eight_section__carousel wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
         <div class="owl-carousel slide-1">
             <div class="item">
                 <div class="teachers_contain">
@@ -839,10 +838,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="nine_section__head">
+                <div class="nine_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     успех учеников
                 </div>
-                <div class="contain_student_success">
+                <div class="contain_student_success wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                     <div class="owl-carousel slide-2">
                         <div class="item">
                             <div class="student__success">
@@ -897,18 +896,18 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="certificate__information">
-                    <div class="certificate__information_head">
+                    <div class="certificate__information_head wow fadeInLeft" data-wow-offset="150" data-wow-delay="0.5s">
                         Сертификат мастера<br>
                         международного образца
                     </div>
-                    <div class="certificate__information_text">
+                    <div class="certificate__information_text wow fadeInLeft" data-wow-offset="150" data-wow-delay="0.75">
                         Странная у него манера – садиться на конторку и с ее высоты разговаривать со служащим, который вдобавок вынужден подойти вплотную к конторке из-за
                         того, что хозяин туг на ухо. Однако надежда еще не совсем потеряна: как только я накоплю денег.
                     </div>
-                    <div class="certificate__information_phone">
+                    <div class="certificate__information_phone wow fadeInLeft" data-wow-offset="150" data-wow-delay="1s">
                         <a href="tel:89778582129">8 (977) 858 21 29</a>
                     </div>
-                    <div class="certificate__information_links">
+                    <div class="certificate__information_links wow fadeInLeft" data-wow-offset="150" data-wow-delay="1.25s">
                         <!-- Button trigger modal -->
                         <button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModalCenter">
                             оставить заявку
@@ -917,7 +916,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="contain-certificate">
+                <div class="contain-certificate wow fadeInRight" data-wow-offset="150" data-wow-delay="1">
                     <div class="certificate">
                         <a href="img/certificate.jpg" data-fancybox="images" data-caption="My caption">
                             <img src="img/certificate.jpg" alt="img"/>
@@ -931,7 +930,7 @@
 <div class="eleven_section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 mt-70">
+            <div class="col-lg-3 mt-70 wow zoomIn" data-wow-offset="150" data-wow-delay="0.25s">
                 <div class="event">
                     <a href="img/event/img_1.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_1.jpg" alt="img"/>
@@ -943,7 +942,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-200">
+            <div class="col-lg-3 mt-200 wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                 <div class="event">
                     <a href="img/event/img_3.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_3.jpg" alt="img"/>
@@ -960,7 +959,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-30">
+            <div class="col-lg-3 mt-30 wow zoomIn" data-wow-offset="150" data-wow-delay="0.75s">
                 <div class="event">
                     <a href="img/event/img_6.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_6.jpg" alt="img"/>
@@ -972,7 +971,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-90">
+            <div class="col-lg-3 mt-90 wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                 <div class="event">
                     <a href="img/event/img_8.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_8.jpg" alt="img"/>
@@ -991,13 +990,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="twelve_section__head">
+                <div class="twelve_section__head wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     50+ мероприятий в год
                 </div>
-                <div class="twelve_section__text">
+                <div class="twelve_section__text wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                     будьте в курсе актуальных событий
                 </div>
-                <div class="contain_social_links">
+                <div class="contain_social_links wow fadeInUp" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="outer">
                         <div id="big" class="owl-carousel owl-theme">
                             <div class="item">
@@ -1081,6 +1080,7 @@
 <script src="libs/owlcarousel/owl.carousel.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.min.js"></script>
 <script src="libs/jQueryFormStyler/jquery.formstyler.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
