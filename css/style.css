@@ -1385,3 +1385,53 @@ html body {
 .nav__scroll .phone_number::after {
     content: none;
 }
+
+/*-----------------------*/
+.modal-content {
+    background-image: url(../img/bg_form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ModalCenterTitle {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.form-group.form-check {
+    display: flex;
+    padding-left: 0;
+}
+
+.jq-checkbox {
+    border-radius: 3px;
+    display: flex;
+    width: 30px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jq-checkbox.checked .jq-checkbox__div {
+    margin: 0;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px;
+}
+
+.program__button {
+    margin-top: 30px;
+}
+
+.program__button .btn-pink {
+    border: 1px solid #fff;
+}
