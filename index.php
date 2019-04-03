@@ -230,6 +230,11 @@
                         позволяет гибко настраивать свою<br>
                         занятость и график работы
                     </div>
+                    <div class="dws">
+                        <div class="pulse">
+                            <div class="bloc"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -242,6 +247,11 @@
                         позволяет гибко настраивать свою<br>
                         занятость и график работы
                     </div>
+                    <div class="dws">
+                        <div class="pulse">
+                            <div class="bloc"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -253,6 +263,11 @@
                         Короткий трек клиента в 1-2 часа<br>
                         позволяет гибко настраивать свою<br>
                         занятость и график работы
+                    </div>
+                    <div class="dws">
+                        <div class="pulse">
+                            <div class="bloc"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1137,6 +1152,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="contain-dws">
+    <div class="dws">
+        <div class="pulse">
+            <div class="bloc"></div>
         </div>
     </div>
 </div>

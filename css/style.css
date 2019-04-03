@@ -6,6 +6,19 @@ html body {
     overflow-x: hidden;
 }
 
+a:hover {
+    color: #000000;
+}
+
+.pirple_btn:hover {
+    color: #fff;
+}
+
+a:focus,
+button:focus {
+    outline: none;
+}
+
 .section__num {
     position: absolute;
     top: 0;
@@ -79,10 +92,6 @@ html body {
 
 .header a {
     text-decoration: none;
-}
-
-.header a:hover {
-    color: #fff;
 }
 
 .top_menu {
@@ -374,6 +383,7 @@ html body {
 }
 
 .employment {
+    position: relative;
     min-height: 250px;
     padding-top: 147px;
 }
@@ -387,6 +397,10 @@ html body {
     text-align: center;
     line-height: 1.2;
     margin-bottom: 23px;
+    transition: ease-in-out 300ms;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
 }
 
 .employment__text {
@@ -395,6 +409,7 @@ html body {
     color: rgba(255, 255, 255, 0.478);
     line-height: 1.2;
     text-align: center;
+    margin-top: 43px;
 }
 
 /*Trio section*/
@@ -1450,3 +1465,126 @@ html body {
     font-size: 30px;
     text-align: center;
 }
+
+/*-----------------------------------*/
+.contain-dws {
+    position: relative;
+    padding: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employment .dws {
+    padding-top: 55px;
+}
+
+
+.dws {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pulse, .bloc, .phone {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.bloc {
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.pulse {
+    position: relative;
+    transition: .5s;
+}
+
+.phone {
+    font-size: 50px;
+    line-height: 94px;
+    animation: phone .9s ease-in-out infinite;
+}
+
+.text {
+    position: absolute;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    top: 28px;
+    font-size: 15px;
+    transform: scaleX(-1);
+    transition: .5s ease-in-out;
+}
+
+.phone i {
+    transition: .5s ease-in-out;
+}
+
+.pulse i {
+    transition: .5s ease-in-out;
+    transform: scale(0);
+}
+
+.pulse .text {
+    transform: scaleX(1);
+    transition: .5s ease-in-out;
+    opacity: 1;
+}
+
+.pulse::before,
+.pulse::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #6b6562;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: pulse 1.8s linear infinite;
+    opacity: 0;
+}
+
+.pulse::after {
+    animation-delay: .5s;
+}
+
+/*--------------------------------*/
+
+.employment__head:hover {
+    color: rgb(229, 70, 113);
+    text-shadow: 0px 2px 18px rgba(229, 70, 113, 0.42);
+    transition: ease-in-out 300ms;
+}
+
+
+.employment__head:hover + .dws.pulse::before,
+.employment__head:hover + .dws.pulse::after {
+    border: 1px solid rgb(229, 70, 113);
+}
+
+/*--------------------------------*/
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
