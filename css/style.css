@@ -1435,3 +1435,18 @@ html body {
 .program__button .btn-pink {
     border: 1px solid #fff;
 }
+
+.contain-thanks {
+    padding: 97px 0;
+}
+
+.text-thanks-big {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-thanks-small {
+    font-size: 30px;
+    text-align: center;
+}

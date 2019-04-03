@@ -1076,6 +1076,7 @@
     <div class="leaves_right"></div>
 </div>
 
+
 <!-- Modal -->
 <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -1088,13 +1089,19 @@
             </div>
             <div class="modal-body">
                 <form>
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Site Name">
+                    <input type="hidden" name="admin_email" value="v.gorbatenko84@gmail.com">
+                    <input type="hidden" name="form_subject" value="Form Subject">
+                    <!-- END Hidden Required Fields -->
+
                     <div class="form-group">
                         <label for="InputName">Ваше имя</label>
-                        <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Имя" required>
+                        <input type="text" name="Имя" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Имя" required>
                     </div>
                     <div class="form-group">
                         <label for="InputPhone">Номер телефона</label>
-                        <input type="text" class="form-control" id="InputPhone" placeholder="Телефон" required>
+                        <input type="text" name="Телефон" class="form-control" id="InputPhone" placeholder="Телефон" required>
                     </div>
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="Check" required checked>
@@ -1111,6 +1118,29 @@
     </div>
 </div>
 
+
+<!-- Modal Thanks -->
+<div class="thanks" data-toggle="modal" data-target="#ModalCenterThanks"></div>
+<div class="modal fade" id="ModalCenterThanks" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="contain-thanks">
+                    <div class="text-thanks-big">
+                        Спасибо
+                    </div>
+                    <div class="text-thanks-small">
+                        Ваша заявка принята
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
@@ -1120,6 +1150,7 @@
 <script src="libs/fancybox/jquery.fancybox.min.js"></script>
 <script src="libs/jQueryFormStyler/jquery.formstyler.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="script.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
