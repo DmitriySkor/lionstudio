@@ -358,15 +358,868 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .top_menu {
+        display: none;
+    }
 
+    .header_contacts {
+        margin: 0 auto;
+    }
+
+    .nav__scroll .header_contacts {
+        margin: 0 auto;
+    }
+
+    .top-horizontal-line {
+        display: none;
+    }
+
+    .bg_first_section_left {
+        width: 250px;
+        height: 430px;
+    }
+
+    .bg_first_section_right {
+        width: 250px;
+        height: 379px;
+    }
+
+    .first__info {
+        min-height: 500px;
+        margin-top: 20px;
+        padding-top: 20px;
+        background-size: contain;
+    }
+
+    .second__info_head {
+        line-height: 1.2;
+    }
+
+    .first__info_text {
+        margin-top: 60px;
+        padding: 0 30px;
+    }
+
+    .leaves__info_number .fa-circle {
+        display: none;
+    }
+
+    .advantage {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .advantage__head {
+        min-height: 60px;
+    }
+
+    .second_section {
+        margin-top: 95px;
+    }
+
+    .second_section__pate {
+        margin-top: 275px;
+    }
+
+    .pate {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pate img {
+        width: 33.3333%;
+        max-width: 64px;
+        margin: 15px 50px;
+    }
+
+    .second_section__text {
+        padding: 0 30px;
+    }
+
+    .employment {
+        min-height: 220px;
+        padding-top: 120px;
+    }
+
+    .chips__head {
+        min-height: 60px;
+    }
+
+    #pills-tabContent {
+        padding: 0;
+    }
+
+    .four_section {
+        padding: 100px 0 120px;
+    }
+
+    .five_section__img {
+        display: none;
+    }
+
+    .five_section__text {
+        padding: 0 30px;
+    }
+
+    .five_section__info {
+        background-image: none;
+        float: none;
+    }
+
+    .program__top {
+        flex-direction: column;
+    }
+
+    .program__bot {
+        flex-wrap: wrap;
+    }
+
+    .program__top_right {
+        justify-content: space-between;
+    }
+
+    .program__bot_time {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+        padding-right: 15px;
+    }
+
+    .program__bot_teachers {
+        width: 65%;
+    }
+
+    .program__bot_ {
+        width: 35%;
+        border-right: 1px solid #fff;
+    }
+
+    .program__bot_timetable {
+        padding-left: 0;
+    }
+
+    .teachers__info {
+        background-position: -275px 0;
+    }
+
+    .nine_section .owl-prev {
+        top: calc(50% - 135px);
+    }
+
+    .nine_section .owl-next {
+        top: calc(50% - 135px);
+    }
+
+    .student__success_text {
+        padding: 0;
+    }
+
+    .certificate__information {
+        align-items: center;
+    }
+
+    .certificate__information_head {
+        text-align: center;
+    }
+
+    .certificate__information_text {
+        text-align: center;
+    }
+
+    .certificate {
+        position: relative;
+        top: 45px;
+    }
+
+    .contain-certificate {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .contain-certificate {
+        margin-top: 85px;
+    }
+
+    .mt-70 {
+        margin-top: 0;
+    }
+
+    .mt-200 {
+        margin-top: 0;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .mt-90 {
+        margin-top: 0;
+    }
+
+    .leaves_left {
+        width: 250px;
+        height: 110px;
+        background-size: cover;
+    }
+
+    .leaves_right {
+        width: 250px;
+        height: 109px;
+        background-size: cover;
+    }
+
+    .nav__scroll_bg {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .teachers__info_block {
+        background-image: none;
+        width: 100%;
+        height: 280px;
+    }
+
+    .eight_section .slide-1 .owl-nav {
+        bottom: 25px;
+        left: calc(50% + 100px);
+        z-index: 4;
+    }
+
+    .section__num {
+        width: 112px;
+        display: flex;
+        z-index: 2;
+        margin-left: calc(50% - 56px);
+    }
+
+    .nine_section {
+        padding: 100px 0 55px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575px) {
+    .top_menu {
+        display: none;
+    }
 
+    .header_contacts {
+        margin: 0 auto;
+    }
+
+    .nav__scroll .header_contacts {
+        margin: 0 auto;
+    }
+
+    .top-horizontal-line {
+        display: none;
+    }
+
+    .bg_first_section_left {
+        width: 250px;
+        height: 430px;
+    }
+
+    .bg_first_section_right {
+        width: 250px;
+        height: 379px;
+    }
+
+    .first__info {
+        min-height: 500px;
+        margin-top: 20px;
+        padding-top: 20px;
+        background-size: contain;
+    }
+
+    .second__info_head {
+        line-height: 1.2;
+    }
+
+    .first__info_text {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .leaves__info_number .fa-circle {
+        display: none;
+    }
+
+    .advantage {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .advantage__head {
+        min-height: 60px;
+    }
+
+    .second_section {
+        margin-top: 95px;
+    }
+
+    .second_section__pate {
+        margin-top: 275px;
+    }
+
+    .pate {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pate img {
+        width: 33.3333%;
+        max-width: 64px;
+        margin: 15px 50px;
+    }
+
+    .second_section__text {
+        padding: 0;
+    }
+
+    .employment {
+        min-height: 220px;
+        padding-top: 120px;
+    }
+
+    .chips__head {
+        min-height: 60px;
+    }
+
+    #pills-tabContent {
+        padding: 0;
+    }
+
+    .four_section {
+        padding: 100px 0 120px;
+    }
+
+    .five_section__img {
+        display: none;
+    }
+
+    .five_section__text {
+        padding: 0 30px;
+    }
+
+    .five_section__info {
+        background-image: none;
+        float: none;
+    }
+
+    .program__top {
+        flex-direction: column;
+    }
+
+    .program__bot {
+        flex-wrap: wrap;
+    }
+
+    .program__top_right {
+        justify-content: space-between;
+    }
+
+    .program__bot_time {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+        padding-right: 15px;
+    }
+
+    .program__bot_teachers {
+        width: 65%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .program__bot_ {
+        width: 35%;
+        border-right: 1px solid #fff;
+    }
+
+    .program__bot_timetable {
+        padding-left: 0;
+    }
+
+    .teachers__info {
+        background-position: -275px 0;
+    }
+
+    .nine_section .owl-prev {
+        top: calc(50% - 135px);
+    }
+
+    .nine_section .owl-next {
+        top: calc(50% - 135px);
+    }
+
+    .student__success_text {
+        padding: 0;
+    }
+
+    .certificate__information {
+        align-items: center;
+    }
+
+    .certificate__information_head {
+        text-align: center;
+    }
+
+    .certificate__information_text {
+        text-align: center;
+    }
+
+    .certificate {
+        position: relative;
+        top: 45px;
+    }
+
+    .contain-certificate {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .contain-certificate {
+        margin-top: 85px;
+    }
+
+    .mt-70 {
+        margin-top: 0;
+    }
+
+    .mt-200 {
+        margin-top: 0;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .mt-90 {
+        margin-top: 0;
+    }
+
+    .leaves_left {
+        width: 200px;
+        height: 88px;
+        background-size: cover;
+    }
+
+    .leaves_right {
+        width: 200px;
+        height: 87px;
+        background-size: cover;
+    }
+
+    .nav__scroll_bg {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .teachers__info_block {
+        background-image: none;
+        width: 100%;
+        height: 280px;
+    }
+
+    .eight_section .slide-1 .owl-nav {
+        bottom: 25px;
+        left: calc(50% + 73px);
+        z-index: 4;
+    }
+
+    .section__num {
+        width: 112px;
+        display: flex;
+        z-index: 2;
+        margin-left: calc(50% - 56px);
+    }
+
+    .nine_section {
+        padding: 100px 0 55px;
+    }
+
+    .five_section__info-txt {
+        font-size: 25px;
+    }
+
+    .orange_program,
+    .violet_program,
+    .pink_program,
+    .yellow_program,
+    .blue_program {
+        padding: 30px 35px 40px;
+    }
+
+    .tab-pane {
+        min-height: 250px;
+    }
+
+    .certificate {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.24);
+    }
+
+    .certificate a img {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 479px) {
+    .top_menu {
+        display: none;
+    }
 
+    .header_contacts {
+        margin: 0 auto;
+    }
+
+    .nav__scroll .header_contacts {
+        margin: 0 auto;
+    }
+
+    .top-horizontal-line {
+        display: none;
+    }
+
+    .bg_first_section_left {
+        width: 250px;
+        height: 430px;
+    }
+
+    .bg_first_section_right {
+        width: 250px;
+        height: 379px;
+    }
+
+    .first__info {
+        min-height: 500px;
+        margin-top: 20px;
+        padding-top: 20px;
+        background-size: contain;
+    }
+
+    .second__info_head {
+        line-height: 1.2;
+    }
+
+    .first__info_text {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .leaves__info_number .fa-circle {
+        display: none;
+    }
+
+    .advantage {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .advantage__head {
+        min-height: 60px;
+    }
+
+    .second_section {
+        margin-top: 95px;
+    }
+
+    .second_section__pate {
+        margin-top: 275px;
+    }
+
+    .pate {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pate img {
+        width: 33.3333%;
+        max-width: 64px;
+        margin: 15px 50px;
+    }
+
+    .second_section__text {
+        padding: 0;
+    }
+
+    .employment {
+        min-height: 220px;
+        padding-top: 120px;
+    }
+
+    .chips__head {
+        min-height: 60px;
+    }
+
+    #pills-tabContent {
+        padding: 0;
+    }
+
+    .four_section {
+        padding: 100px 0 120px;
+    }
+
+    .five_section__img {
+        display: none;
+    }
+
+    .five_section__text {
+        padding: 0;
+    }
+
+    .five_section__info {
+        background-image: none;
+        float: none;
+    }
+
+    .program__top {
+        flex-direction: column;
+    }
+
+    .program__bot {
+        flex-wrap: wrap;
+    }
+
+    .program__top_right {
+        justify-content: space-between;
+    }
+
+    .program__bot_time {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+        padding-right: 15px;
+    }
+
+    .program__bot_teachers {
+        width: 65%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .program__bot_ {
+        width: 35%;
+        border-right: 1px solid #fff;
+    }
+
+    .program__bot_timetable {
+        padding-left: 0;
+    }
+
+    .teachers__info {
+        background-position: -350px 0;
+    }
+
+    .nine_section .owl-prev {
+        top: calc(50% - 245px);
+    }
+
+    .nine_section .owl-next {
+        top: calc(50% - 245px);
+    }
+
+    .student__success_text {
+        padding: 0;
+    }
+
+    .certificate__information {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .certificate__information_head {
+        text-align: center;
+    }
+
+    .certificate__information_text {
+        text-align: center;
+    }
+
+    .certificate {
+        position: relative;
+        top: 45px;
+    }
+
+    .contain-certificate {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .contain-certificate {
+        margin-top: 85px;
+    }
+
+    .mt-70 {
+        margin-top: 0;
+    }
+
+    .mt-200 {
+        margin-top: 0;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .mt-90 {
+        margin-top: 0;
+    }
+
+    .leaves_left {
+        display: none;
+    }
+
+    .leaves_right {
+        display: none;
+    }
+
+    .nav__scroll_bg {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .teachers__info_block {
+        background-image: none;
+        width: 100%;
+        height: 295px;
+        padding: 35px 5px 80px;
+    }
+
+    .eight_section .slide-1 .owl-nav {
+        bottom: 40px;
+        left: calc(50% + 25px);
+        z-index: 4;
+    }
+
+    .section__num {
+        width: 112px;
+        display: flex;
+        z-index: 2;
+        margin-left: calc(50% - 56px);
+    }
+
+    .nine_section {
+        padding: 100px 0 55px;
+    }
+
+    .five_section__info-txt {
+        font-size: 25px;
+    }
+
+    .orange_program,
+    .violet_program,
+    .pink_program,
+    .yellow_program,
+    .blue_program {
+        padding: 20px 25px 30px;
+    }
+
+    .tab-pane {
+        min-height: 250px;
+    }
+
+    .certificate {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.24);
+    }
+
+    .certificate a img {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+
+    .leaves__info_number {
+        font-size: 50px;
+    }
+
+    .second_section__head,
+    .trio_section__head,
+    .four_section__head,
+    .five_section__head,
+    .six_section__head,
+    .seven_section__head,
+    .eight_section__head,
+    .nine_section__head {
+        font-size: 30px;
+    }
+
+    #pills-tab {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .measure .nav-item {
+        position: relative;
+        width: 100%;
+        height: 68px;
+    }
+
+    .measure__before.beef-1,
+    .measure__before.beef-2 {
+        display: none;
+    }
+
+    .program__top_text {
+        font-size: 24px;
+    }
+
+    .program__top_right-price-numb {
+        font-size: 24px;
+    }
+
+    .program__top_right-circle {
+        display: none;
+    }
+
+    .small__program_circle {
+        display: none;
+    }
+
+    .teachers__info_txt {
+        top: 185px;
+        left: 15px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 359px) {
@@ -386,6 +1239,7 @@
     .eight_section__head,
     .nine_section__head {
         margin-top: 30px;
+        line-height: 1.2;
     }
 
     /*----------------------*/
@@ -408,6 +1262,348 @@
 
 }
 
-@media (min-width: 0) and (max-width: 319px) {
+@media (min-width: 0) and (max-width: 359px) {
+    .top_menu {
+        display: none;
+    }
 
+    .header_contacts {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .nav__scroll .header_contacts {
+        width: calc(100% + 30px);
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .top-horizontal-line {
+        display: none;
+    }
+
+    .bg_first_section_left {
+        display: none;
+    }
+
+    .bg_first_section_right {
+        width: 250px;
+        height: 379px;
+    }
+
+    .first__info {
+        min-height: 500px;
+        margin-top: 20px;
+        padding-top: 20px;
+        background-size: contain;
+    }
+
+    .second__info_head {
+        line-height: 1.2;
+        font-size: 26px;
+    }
+
+    .first__info_text {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .leaves__info_number .fa-circle {
+        display: none;
+    }
+
+    .advantage {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .advantage__head {
+        min-height: 60px;
+    }
+
+    .second_section {
+        margin-top: 95px;
+    }
+
+    .second_section__pate {
+        margin-top: 25px;
+    }
+
+    .pate {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pate img {
+        width: 33.3333%;
+        max-width: 64px;
+        margin: 15px 50px;
+    }
+
+    .second_section__text {
+        padding: 0;
+    }
+
+    .employment {
+        min-height: 220px;
+        padding-top: 120px;
+    }
+
+    .chips__head {
+        min-height: 60px;
+    }
+
+    #pills-tabContent {
+        padding: 0;
+    }
+
+    .four_section {
+        padding: 100px 0 120px;
+    }
+
+    .five_section__img {
+        display: none;
+    }
+
+    .five_section__text {
+        padding: 0;
+    }
+
+    .five_section__info {
+        background-image: none;
+        float: none;
+    }
+
+    .program__top {
+        flex-direction: column;
+    }
+
+    .program__bot {
+        flex-wrap: wrap;
+    }
+
+    .program__top_right {
+        justify-content: space-between;
+    }
+
+    .program__bot_time {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-right: 0;
+        width: 50%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+        padding-right: 15px;
+    }
+
+    .program__bot_teachers {
+        width: 65%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .program__bot_ {
+        width: 35%;
+        border-right: 1px solid #fff;
+    }
+
+    .program__bot_timetable {
+        padding-left: 0;
+    }
+
+    .teachers__info {
+        background-position: -350px 0;
+    }
+
+    .nine_section .owl-prev {
+        top: calc(50% - 280px);
+    }
+
+    .nine_section .owl-next {
+        top: calc(50% - 280px);
+    }
+
+    .student__success_text {
+        padding: 0;
+    }
+
+    .certificate__information {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .certificate__information_head {
+        text-align: center;
+    }
+
+    .certificate__information_text {
+        text-align: center;
+    }
+
+    .certificate {
+        position: relative;
+        top: 45px;
+    }
+
+    .contain-certificate {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .contain-certificate {
+        margin-top: 85px;
+    }
+
+    .mt-70 {
+        margin-top: 0;
+    }
+
+    .mt-200 {
+        margin-top: 0;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .mt-90 {
+        margin-top: 0;
+    }
+
+    .leaves_left {
+        display: none;
+    }
+
+    .leaves_right {
+        display: none;
+    }
+
+    .nav__scroll_bg {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .teachers__info_block {
+        background-image: none;
+        width: 100%;
+        height: 295px;
+        padding: 35px 5px 80px;
+    }
+
+    .eight_section .slide-1 .owl-nav {
+        bottom: 40px;
+        left: calc(50% + 25px);
+        z-index: 4;
+    }
+
+    .section__num {
+        width: 112px;
+        display: flex;
+        z-index: 2;
+        margin-left: calc(50% - 56px);
+    }
+
+    .nine_section {
+        padding: 100px 0 55px;
+    }
+
+    .five_section__info-txt {
+        font-size: 25px;
+    }
+
+    .orange_program,
+    .violet_program,
+    .pink_program,
+    .yellow_program,
+    .blue_program {
+        padding: 15px 15px 20px;
+    }
+
+    .tab-pane {
+        min-height: 250px;
+    }
+
+    .certificate {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 8px 42px 0px rgba(0, 0, 0, 0.24);
+    }
+
+    .certificate a img {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0;
+    }
+
+    .leaves__info_number {
+        font-size: 36px;
+    }
+
+    .second_section__head,
+    .trio_section__head,
+    .four_section__head,
+    .five_section__head,
+    .six_section__head,
+    .seven_section__head,
+    .eight_section__head,
+    .nine_section__head {
+        font-size: 26px;
+    }
+
+    #pills-tab {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .measure .nav-item {
+        position: relative;
+        width: 100%;
+        height: 68px;
+    }
+
+    .measure__before.beef-1,
+    .measure__before.beef-2 {
+        display: none;
+    }
+
+    .program__top_text {
+        font-size: 24px;
+    }
+
+    .program__top_right-price-numb {
+        font-size: 24px;
+    }
+
+    .program__top_right-circle {
+        display: none;
+    }
+
+    .small__program_circle {
+        display: none;
+    }
+
+    .teachers__info_txt {
+        top: 185px;
+        left: 15px;
+    }
+
+    .certificate__information_phone a {
+        font-size: 32px;
+    }
+
+    .twelve_section__head {
+        font-size: 26px;
+    }
 }

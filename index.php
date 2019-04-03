@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="0.5s">
+                <div class="advantage wow fadeInUp" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-1.png" alt="img">
                     </div>
@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="0.75s">
+                <div class="advantage wow fadeInUp" data-wow-offset="150" data-wow-delay="0.75s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-2.png" alt="img">
                     </div>
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="advantage wow fadeInUp" data-wow-offset="300" data-wow-delay="1s">
+                <div class="advantage wow fadeInUp" data-wow-offset="150" data-wow-delay="1s">
                     <div class="advantage__img">
                         <img src="img/ico_advantage-3.png" alt="img">
                     </div>
@@ -201,7 +201,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="second_section__head wow fadeInDown" data-wow-offset="300">
+                <div class="second_section__head wow fadeInDown" data-wow-offset="150">
                     весь комплекс знаний
                 </div>
                 <div class="second_section__pate">
@@ -221,7 +221,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="0.5s">
+                <div class="employment wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="employment__head">
                         Теоретические занятия
                     </div>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="0.75s">
+                <div class="employment wow zoomIn" data-wow-offset="150" data-wow-delay="0.75s">
                     <div class="employment__head">
                         Живые демонстрации
                     </div>
@@ -245,7 +245,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="employment wow zoomIn" data-wow-offset="300" data-wow-delay="1s">
+                <div class="employment wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                     <div class="employment__head">
                         Практические занятия
                     </div>

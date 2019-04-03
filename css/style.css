@@ -81,6 +81,10 @@ html body {
     text-decoration: none;
 }
 
+.header a:hover {
+    color: #fff;
+}
+
 .top_menu {
     font-family: 'Proxima Nova Lt', sans-serif;
     font-weight: 300;
