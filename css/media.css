@@ -1,18 +1,360 @@
 /*Медиазапросы диапазонные*/
-@media (min-width: 1367px) and (max-width: 9999px){
+@media (min-width: 1367px) and (max-width: 9999px) {
 
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
+    .first__info {
+        padding-top: 55px;
+    }
 
+    .first__info_text {
+        margin-top: 55px;
+    }
+
+    .bg_first_section_left {
+        width: 400px;
+        height: 689px;
+    }
+
+    .bg_first_section_right {
+        width: 400px;
+        height: 606px;
+    }
+
+    .contain-mouse {
+        margin-top: 5px;
+    }
+
+    .second_section__pate {
+        margin-top: 140px;
+    }
+
+    .four_section {
+        padding: 120px 0 150px;
+    }
+
+    .teachers__info {
+        background-position: -180px 0;
+    }
+
+    .leaves_left {
+        width: 520px;
+        height: 229px;
+        background-size: cover;
+    }
+
+    .leaves_right {
+        width: 520px;
+        height: 228px;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    .first__info {
+        padding-top: 0;
+    }
 
+    .bg_first_section_left {
+        width: 430px;
+        height: 740px;
+    }
+
+    .bg_first_section_right {
+        width: 430px;
+        height: 652px;
+    }
+
+    .first__info_text {
+        margin-top: 40px;
+        padding: 0 140px;
+    }
+
+    .first__info {
+        min-height: 380px;
+        margin-top: 20px;
+        background-size: contain;
+    }
+
+    .second_section__pate {
+        margin-top: 120px;
+    }
+
+    .employment {
+        padding-top: 120px;
+    }
+
+    .four_section {
+        padding: 10px 0 165px;
+    }
+
+    .five_section__text {
+        padding: 0 150px;
+    }
+
+    .five_section__info {
+        max-width: 650px;
+        background-position: 395px 0;
+    }
+
+    .five_section__img img {
+        left: calc(50% - 690px);
+    }
+
+    .orange_program {
+        padding: 25px;
+    }
+
+    /*--------------------------*/
+    .violet_program,
+    .pink_program,
+    .yellow_program,
+    .blue_program {
+        padding: 25px;
+        min-height: 355px;
+    }
+
+    .small__program {
+        min-height: 99px;
+    }
+
+    /*--------------------------*/
+    .program__bot_time-info {
+        font-size: 20px;
+    }
+
+    .program__bot_time {
+        margin-right: 35px;
+    }
+
+    .program__bot_timetable {
+        padding-left: 20px;
+    }
+
+    .program__bot_teachers {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .teachers__info {
+        background-position: -205px 0;
+    }
+
+    .student__success_text {
+        padding: 0 75px;
+    }
+
+    .leaves_left {
+        width: 300px;
+        height: 132px;
+        background-size: cover;
+    }
+
+    .leaves_right {
+        width: 300px;
+        height: 131px;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .top_menu {
+        display: none;
+    }
 
+    .header_contacts {
+        margin: 0 auto;
+    }
+
+    .nav__scroll .header_contacts {
+        margin: 0 auto;
+    }
+
+    .top-horizontal-line {
+        display: none;
+    }
+
+    .bg_first_section_left {
+        width: 350px;
+        height: 603px;
+    }
+
+    .bg_first_section_right {
+        width: 350px;
+        height: 530px;
+    }
+
+    .first__info {
+        min-height: 500px;
+        margin-top: 20px;
+        padding-top: 60px;
+    }
+
+    .first__info_text {
+        margin-top: 60px;
+        padding: 0 30px;
+    }
+
+    .leaves__info_number .fa-circle {
+        margin: 0 10px;
+    }
+
+    .advantage__head {
+        min-height: 60px;
+    }
+
+    .second_section__pate {
+        margin-top: 170px;
+    }
+
+    .second_section__text {
+        padding: 0 30px;
+    }
+
+    .employment {
+        min-height: 220px;
+        padding-top: 120px;
+    }
+
+    .chips__head {
+        min-height: 60px;
+    }
+
+    #pills-tabContent {
+        padding: 0 30px;
+    }
+
+    .four_section {
+        padding: 100px 0 120px;
+    }
+
+    .five_section__img {
+        display: none;
+    }
+
+    .five_section__text {
+        padding: 0 30px;
+    }
+
+    .five_section__info {
+        background-position: 395px 0;
+        float: none;
+    }
+
+    .program__top {
+        flex-direction: column;
+    }
+
+    .program__bot {
+        flex-wrap: wrap;
+    }
+
+    .program__top_right {
+        justify-content: space-between;
+    }
+
+    .program__bot_time {
+        padding-top: 41px;
+        padding-bottom: 41px;
+        margin-right: 0;
+        width: 25%;
+        margin-bottom: 41px;
+        border-bottom: 1px solid #fff;
+        padding-right: 15px;
+    }
+
+    .program__bot_teachers {
+        width: 50%;
+    }
+
+    .program__bot_ {
+        width: 50%;
+        border-right: 1px solid #fff;
+    }
+
+    .program__bot_timetable {
+        padding-left: 0;
+    }
+
+    .teachers__info {
+        background-position: -275px 0;
+    }
+
+    .nine_section .owl-prev {
+        top: calc(50% - 55px);
+    }
+
+    .nine_section .owl-next {
+        top: calc(50% - 55px);
+    }
+
+    .student__success_text {
+        padding: 0;
+    }
+
+    .certificate__information {
+        align-items: center;
+    }
+
+    .certificate__information_head {
+        text-align: center;
+    }
+
+    .certificate__information_text {
+        text-align: center;
+    }
+
+    .certificate {
+        position: relative;
+        top: 45px;
+    }
+
+    .contain-certificate {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 85px;
+        margin-bottom: 100px;
+    }
+
+    .contain-certificate {
+        margin-top: 85px;
+    }
+
+    .mt-70 {
+        margin-top: 0;
+    }
+
+    .mt-200 {
+        margin-top: 0;
+    }
+
+    .mt-30 {
+        margin-top: 0;
+    }
+
+    .mt-90 {
+        margin-top: 0;
+    }
+
+    .leaves_left {
+        width: 300px;
+        height: 132px;
+        background-size: cover;
+    }
+
+    .leaves_right {
+        width: 300px;
+        height: 131px;
+        background-size: cover;
+    }
+
+    .nav__scroll_bg {
+        background-color: transparent;
+        box-shadow: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -32,9 +374,21 @@
 }
 
 
-
 /*Медиазапросы от 0*/
 @media (min-width: 0) and (max-width: 1199px) {
+    /*----------------------*/
+    .second_section__head,
+    .trio_section__head,
+    .four_section__head,
+    .five_section__head,
+    .six_section__head,
+    .seven_section__head,
+    .eight_section__head,
+    .nine_section__head {
+        margin-top: 30px;
+    }
+
+    /*----------------------*/
 
 }
 

@@ -91,7 +91,7 @@
             <div class="col-lg-12">
                 <div class="first__info">
                     <div class="first__info_slogan wow zoomIn" data-wow-delay="0.55s">
-                        Школа мастеров перманентного макияжа в Москве
+                        Школа мастеров перманентного макияжа в&nbsp;Москве
                     </div>
                     <div class="first__info_images wow zoomIn" data-wow-delay="1.25s">
                         <img class="img-fluid" src="img/name.png" alt="img">
@@ -274,7 +274,7 @@
                     уникальные фишки
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-1.png" alt="img">
@@ -289,7 +289,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-2.png" alt="img">
@@ -304,7 +304,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-3.png" alt="img">
@@ -319,7 +319,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="0.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-4.png" alt="img">
@@ -334,7 +334,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-5.png" alt="img">
@@ -349,7 +349,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4 ">
                 <div class="chips wow fadeInDown" data-wow-offset="150" data-wow-delay="1.5s">
                     <div class="chips__img">
                         <img src="img/chips/ico_chips-6.png" alt="img">
@@ -930,7 +930,7 @@
 <div class="eleven_section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 mt-70 wow zoomIn" data-wow-offset="150" data-wow-delay="0.25s">
+            <div class="col-lg-3 col-md-6 mt-70 wow zoomIn" data-wow-offset="150" data-wow-delay="0.25s">
                 <div class="event">
                     <a href="img/event/img_1.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_1.jpg" alt="img"/>
@@ -942,7 +942,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-200 wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
+            <div class="col-lg-3 col-md-6 mt-200 wow zoomIn" data-wow-offset="150" data-wow-delay="0.5s">
                 <div class="event">
                     <a href="img/event/img_3.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_3.jpg" alt="img"/>
@@ -959,7 +959,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-30 wow zoomIn" data-wow-offset="150" data-wow-delay="0.75s">
+            <div class="col-lg-3 col-md-6 mt-30 wow zoomIn" data-wow-offset="150" data-wow-delay="0.75s">
                 <div class="event">
                     <a href="img/event/img_6.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_6.jpg" alt="img"/>
@@ -971,7 +971,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 mt-90 wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
+            <div class="col-lg-3 col-md-6 mt-90 wow zoomIn" data-wow-offset="150" data-wow-delay="1s">
                 <div class="event">
                     <a href="img/event/img_8.jpg" data-fancybox="gallery" data-caption="Caption #1">
                         <img class="img-fluid" src="img/event/img_8.jpg" alt="img"/>
