@@ -1280,7 +1280,7 @@ button:focus {
 /*--------------------------------------------------*/
 .twelve_section {
     position: relative;
-    padding: 70px 0;
+    padding: 70px 0 25px;
 }
 
 .twelve_section__head {
@@ -1414,9 +1414,9 @@ button:focus {
     width: 100%;
 }
 
-
 .form-check-label {
     font-size: 12px;
+    margin-left: 30px;
 }
 
 .form-group.form-check {
@@ -1427,10 +1427,12 @@ button:focus {
 .jq-checkbox {
     border-radius: 3px;
     display: flex;
-    width: 30px;
+    width: 20px;
     height: 20px;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 1px;
 }
 
 .jq-checkbox.checked .jq-checkbox__div {
@@ -1441,6 +1443,12 @@ button:focus {
     display: flex;
     justify-content: center;
     margin: 0 0 10px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.75rem;
 }
 
 .program__button {
@@ -1464,6 +1472,18 @@ button:focus {
 .text-thanks-small {
     font-size: 30px;
     text-align: center;
+}
+
+.developed {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.developed a {
+    color: #000000;
+    text-decoration: underline;
+    margin-left: 7px;
 }
 
 /*-----------------------------------*/

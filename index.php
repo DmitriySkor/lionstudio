@@ -1082,6 +1082,10 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="developed">
+                            разработано
+                            <a href="http://yodba.ru" target="_blank">YOD</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1155,15 +1159,6 @@
         </div>
     </div>
 </div>
-
-<div class="contain-dws">
-    <div class="dws">
-        <div class="pulse">
-            <div class="bloc"></div>
-        </div>
-    </div>
-</div>
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
