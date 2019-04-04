@@ -4,37 +4,31 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Fonts CSS -->
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/stylesheet.css">
-
-    <!-- Owlcarousel CSS -->
-    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
-
-    <!-- Fancybox CSS -->
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
-
-    <!-- jQueryFormStyler CSS -->
-    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.css">
-    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.theme.css">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-
     <title>Lionstudio</title>
+    <style>
+        #before-load {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            z-index: 1001;
+        }
+
+        #before-load i {
+            font-size: 140px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -70px 0 0 -70px;
+        }
+    </style>
 </head>
 <body>
-
+<div id="before-load">
+    <i class="fa fa-spinner fa-spin"></i>
+</div>
 <div class="animated  nav__scroll">
     <div class="nav__scroll_bg"></div>
     <div class="container">
@@ -1116,7 +1110,7 @@
 
                     <div class="form-group">
                         <label for="InputName">Ваше имя</label>
-                        <input type="text" name="Имя" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Имя" required>
+                        <input type="text" name="Имя" class="form-control" id="InputName" placeholder="Имя" required>
                     </div>
                     <div class="form-group">
                         <label for="InputPhone">Номер телефона</label>
@@ -1159,8 +1153,40 @@
         </div>
     </div>
 </div>
+
+<!-- Normalize CSS -->
+<link rel="stylesheet" href="css/normalize.css">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Fonts CSS -->
+<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="fonts/stylesheet.css">
+
+<!-- Owlcarousel CSS -->
+<link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+
+<!-- Fancybox CSS -->
+<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+
+<!-- jQueryFormStyler CSS -->
+<link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.css">
+<link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.theme.css">
+
+<!-- Style CSS -->
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        $('#before-load').find('i').fadeOut().end().delay(500).fadeOut('slow');
+    });
+</script>
 <script src="js/popper.min.js"></script>
 <script src="js/maskedinput.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
